@@ -62,3 +62,19 @@ com.tvd12.ezyfox.bean.exception.EzySingletonException: bean (databaseUtil,org.he
 2024-12-20 11:23:07 INFO  [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.14.Final
 2024-12-20 11:23:07 INFO  [main] o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
 2024-12-20 11:23:07 ERROR [main] com.zaxxer.hikari.HikariConfig - HikariPool-3 - dataSource or dataSourceClassName or jdbcUrl is required.
+2024-12-20 11:24:11 INFO  [main] c.t.e.b.i.EzySimpleBeanContext$Builder - active profiles: null
+2024-12-20 11:24:11 ERROR [main] com.zaxxer.hikari.HikariConfig - HikariPool-1 - dataSource or dataSourceClassName or jdbcUrl is required.
+2024-12-20 11:24:21 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2024-12-20 11:24:22 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2024-12-20 11:24:35 INFO  [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.14.Final
+2024-12-20 11:24:35 INFO  [main] o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-12-20 11:24:35 ERROR [main] com.zaxxer.hikari.HikariConfig - HikariPool-3 - dataSource or dataSourceClassName or jdbcUrl is required.
+2024-12-20 11:24:44 ERROR [main] org.hello.EmployeeDAO - Error fetching employees: null
+java.lang.NullPointerException: null
+	at org.hello.EmployeeDAO.listEmployees(EmployeeDAO.java:23)
+	at org.hello.Main.main(Main.java:29)
+2024-12-20 11:44:21 WARN  [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=19m16s316ms564µs200ns).
+2024-12-20 11:44:21 ERROR [main] org.hello.EmployeeDAO - Error fetching employees: null
+java.lang.NullPointerException: null
+	at org.hello.EmployeeDAO.listEmployees(EmployeeDAO.java:23)
+	at org.hello.Main.main(Main.java:29)
