@@ -47,3 +47,9 @@ Desktop.ini
 # Linux
 .*.swp
 .*.swo
+.idea/
+*.iml
+build/
+out/
+target/
+*.log
