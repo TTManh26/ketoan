@@ -1,1 +1,49 @@
+# Các thư mục do IntelliJ IDEA tạo ra
 .idea/
+*.iws
+*.iml
+*.ipr
+
+# Tệp cấu hình cá nhân hoặc thiết lập workspace
+# Những file này không nên được chia sẻ
+*.swp
+*.swo
+
+# Thư mục build và output
+out/
+build/
+
+# File log và tạm thời
+*.log
+*.tmp
+*.bak
+
+# File Java class và file biên dịch
+*.class
+
+# File Maven hoặc Gradle cache
+.mvn/
+target/
+*.jar
+*.war
+*.ear
+.gradle/
+build/
+
+# File cấu hình môi trường
+.env
+*.env
+
+# Các hệ điều hành và IDE khác (nếu cần)
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+.*.swp
+.*.swo
