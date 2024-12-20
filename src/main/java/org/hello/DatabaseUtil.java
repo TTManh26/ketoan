@@ -7,6 +7,7 @@ import com.zaxxer.hikari.HikariDataSource;
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 import org.hibernate.cfg.Configuration;
+import org.hibernate.cfg.Environment;
 import org.hibernate.service.ServiceRegistry;
 
 import java.io.IOException;
@@ -44,6 +45,7 @@ public class DatabaseUtil {
             configuration.setProperty("hibernate.format_sql", properties.getProperty("hibernate.format_sql"));
 
             // Thêm các lớp entity
+            configuration.getProperties().put(Environment.DATASOURCE, dataSource);
             configuration.addAnnotatedClass(Employee.class);
             configuration.addAnnotatedClass(DatabaseAppenderEntity.class);
 
