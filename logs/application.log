@@ -1,0 +1,64 @@
+2024-12-20 07:42:18 INFO  [main] c.t.e.b.i.EzySimpleBeanContext$Builder - active profiles: null
+2024-12-20 07:42:18 ERROR [main] com.zaxxer.hikari.HikariConfig - HikariPool-1 - dataSource or dataSourceClassName or jdbcUrl is required.
+2024-12-20 07:42:45 INFO  [main] c.t.e.b.i.EzySimpleBeanContext$Builder - active profiles: null
+2024-12-20 07:42:45 ERROR [main] com.zaxxer.hikari.HikariConfig - HikariPool-1 - dataSource or dataSourceClassName or jdbcUrl is required.
+2024-12-20 07:45:00 INFO  [main] c.t.e.b.i.EzySimpleBeanContext$Builder - active profiles: null
+2024-12-20 07:45:00 ERROR [main] com.zaxxer.hikari.HikariConfig - HikariPool-1 - dataSource or dataSourceClassName or jdbcUrl is required.
+2024-12-20 07:45:00 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2024-12-20 07:45:00 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2024-12-20 07:45:00 INFO  [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.14.Final
+2024-12-20 07:45:00 INFO  [main] o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-12-20 07:45:00 ERROR [main] com.zaxxer.hikari.HikariConfig - HikariPool-3 - dataSource or dataSourceClassName or jdbcUrl is required.
+2024-12-20 07:52:41 INFO  [main] c.t.e.b.i.EzySimpleBeanContext$Builder - active profiles: null
+2024-12-20 07:52:41 ERROR [main] com.zaxxer.hikari.HikariConfig - HikariPool-1 - dataSource or dataSourceClassName or jdbcUrl is required.
+2024-12-20 07:52:41 WARN  [main] c.t.e.b.impl.EzySimpleErrorHandler - error
+com.tvd12.ezyfox.bean.exception.EzySingletonException: bean (databaseUtil,org.hello.DatabaseUtil) implementation not found, uncompleted classes: [class org.hello.EmployeeDAO]
+	at com.tvd12.ezyfox.bean.exception.EzySingletonException.implementationNotFound(EzySingletonException.java:18)
+	at com.tvd12.ezyfox.bean.impl.EzySimpleBeanContext$Builder.loadSingletonOfBeanKey(EzySimpleBeanContext.java:1197)
+	at com.tvd12.ezyfox.bean.impl.EzySimpleBeanContext$Builder.getSingletonOfErrorBeanKey(EzySimpleBeanContext.java:1185)
+	at com.tvd12.ezyfox.bean.impl.EzySimpleBeanContext$Builder.getSingletonOfErrorBeanKey0(EzySimpleBeanContext.java:1167)
+	at com.tvd12.ezyfox.bean.impl.EzySimpleBeanContext$Builder.loadUncompletedSingletons(EzySimpleBeanContext.java:1150)
+	at com.tvd12.ezyfox.bean.impl.EzySimpleBeanContext$Builder.tryLoadUncompletedSingletonsAgain(EzySimpleBeanContext.java:1135)
+	at com.tvd12.ezyfox.bean.impl.EzySimpleBeanContext$Builder.build(EzySimpleBeanContext.java:858)
+	at com.tvd12.ezyfox.bean.impl.EzySimpleBeanContext$Builder.build(EzySimpleBeanContext.java:207)
+	at org.hello.Main.main(Main.java:11)
+2024-12-20 08:49:09 INFO  [main] c.t.e.b.i.EzySimpleBeanContext$Builder - active profiles: null
+2024-12-20 08:49:09 ERROR [main] com.zaxxer.hikari.HikariConfig - HikariPool-1 - dataSource or dataSourceClassName or jdbcUrl is required.
+2024-12-20 08:49:17 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2024-12-20 08:49:18 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2024-12-20 08:49:18 INFO  [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.14.Final
+2024-12-20 08:49:18 INFO  [main] o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-12-20 08:49:18 ERROR [main] com.zaxxer.hikari.HikariConfig - HikariPool-3 - dataSource or dataSourceClassName or jdbcUrl is required.
+2024-12-20 08:52:08 INFO  [main] c.t.e.b.i.EzySimpleBeanContext$Builder - active profiles: null
+2024-12-20 08:52:08 ERROR [main] com.zaxxer.hikari.HikariConfig - HikariPool-1 - dataSource or dataSourceClassName or jdbcUrl is required.
+2024-12-20 08:52:13 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2024-12-20 08:52:14 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2024-12-20 08:52:14 INFO  [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.14.Final
+2024-12-20 08:52:14 INFO  [main] o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-12-20 08:52:14 ERROR [main] com.zaxxer.hikari.HikariConfig - HikariPool-3 - dataSource or dataSourceClassName or jdbcUrl is required.
+2024-12-20 09:01:08 INFO  [main] c.t.e.b.i.EzySimpleBeanContext$Builder - active profiles: null
+2024-12-20 09:01:08 ERROR [main] com.zaxxer.hikari.HikariConfig - HikariPool-1 - dataSource or dataSourceClassName or jdbcUrl is required.
+2024-12-20 11:10:13 INFO  [main] c.t.e.b.i.EzySimpleBeanContext$Builder - active profiles: null
+2024-12-20 11:10:13 ERROR [main] com.zaxxer.hikari.HikariConfig - HikariPool-1 - dataSource or dataSourceClassName or jdbcUrl is required.
+2024-12-20 11:10:30 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2024-12-20 11:10:31 INFO  [main] c.t.e.b.i.EzySimpleBeanContext$Builder - active profiles: null
+2024-12-20 11:10:31 ERROR [main] com.zaxxer.hikari.HikariConfig - HikariPool-1 - dataSource or dataSourceClassName or jdbcUrl is required.
+2024-12-20 11:10:31 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2024-12-20 11:10:31 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2024-12-20 11:10:31 INFO  [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.14.Final
+2024-12-20 11:10:31 INFO  [main] o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-12-20 11:10:32 ERROR [main] com.zaxxer.hikari.HikariConfig - HikariPool-3 - dataSource or dataSourceClassName or jdbcUrl is required.
+2024-12-20 11:11:41 INFO  [main] c.t.e.b.i.EzySimpleBeanContext$Builder - active profiles: null
+2024-12-20 11:11:41 ERROR [main] com.zaxxer.hikari.HikariConfig - HikariPool-1 - dataSource or dataSourceClassName or jdbcUrl is required.
+2024-12-20 11:14:34 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2024-12-20 11:14:34 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2024-12-20 11:14:34 INFO  [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.14.Final
+2024-12-20 11:14:35 INFO  [main] o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-12-20 11:14:35 ERROR [main] com.zaxxer.hikari.HikariConfig - HikariPool-3 - dataSource or dataSourceClassName or jdbcUrl is required.
+2024-12-20 11:16:10 INFO  [main] c.t.e.b.i.EzySimpleBeanContext$Builder - active profiles: null
+2024-12-20 11:16:10 ERROR [main] com.zaxxer.hikari.HikariConfig - HikariPool-1 - dataSource or dataSourceClassName or jdbcUrl is required.
+2024-12-20 11:23:07 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2024-12-20 11:23:07 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2024-12-20 11:23:07 INFO  [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.14.Final
+2024-12-20 11:23:07 INFO  [main] o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-12-20 11:23:07 ERROR [main] com.zaxxer.hikari.HikariConfig - HikariPool-3 - dataSource or dataSourceClassName or jdbcUrl is required.

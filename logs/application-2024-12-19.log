@@ -1,0 +1,28 @@
+2024-12-19 07:41:41 INFO  [main] c.t.e.b.i.EzySimpleBeanContext$Builder - active profiles: null
+2024-12-19 07:41:41 ERROR [main] com.zaxxer.hikari.HikariConfig - HikariPool-1 - dataSource or dataSourceClassName or jdbcUrl is required.
+2024-12-19 07:41:58 INFO  [main] c.t.e.b.i.EzySimpleBeanContext$Builder - active profiles: null
+2024-12-19 07:41:58 ERROR [main] com.zaxxer.hikari.HikariConfig - HikariPool-1 - dataSource or dataSourceClassName or jdbcUrl is required.
+2024-12-19 07:42:00 ERROR [main] org.hello.EmployeeDAO - Error fetching employees: null
+java.lang.NullPointerException: null
+	at org.hello.EmployeeDAO.listEmployees(EmployeeDAO.java:22)
+	at org.hello.Main.main(Main.java:28)
+2024-12-19 07:44:10 INFO  [main] c.t.e.b.i.EzySimpleBeanContext$Builder - active profiles: null
+2024-12-19 07:44:10 ERROR [main] com.zaxxer.hikari.HikariConfig - HikariPool-1 - dataSource or dataSourceClassName or jdbcUrl is required.
+2024-12-19 07:44:17 ERROR [main] org.hello.EmployeeDAO - Error fetching employees: null
+java.lang.NullPointerException: null
+	at org.hello.EmployeeDAO.listEmployees(EmployeeDAO.java:22)
+	at org.hello.Main.main(Main.java:28)
+2024-12-19 08:26:47 INFO  [main] c.t.e.b.i.EzySimpleBeanContext$Builder - active profiles: null
+2024-12-19 08:26:48 ERROR [main] com.zaxxer.hikari.HikariConfig - HikariPool-1 - dataSource or dataSourceClassName or jdbcUrl is required.
+2024-12-19 08:26:52 ERROR [main] org.hello.EmployeeDAO - Error fetching employees: null
+java.lang.NullPointerException: null
+	at org.hello.EmployeeDAO.listEmployees(EmployeeDAO.java:22)
+	at org.hello.Main.main(Main.java:28)
+2024-12-19 08:45:21 INFO  [main] c.t.e.b.i.EzySimpleBeanContext$Builder - active profiles: null
+2024-12-19 08:45:21 ERROR [main] com.zaxxer.hikari.HikariConfig - HikariPool-1 - dataSource or dataSourceClassName or jdbcUrl is required.
+2024-12-19 08:45:57 ERROR [main] org.hello.EmployeeDAO - Error fetching employees: null
+java.lang.NullPointerException: null
+	at org.hello.EmployeeDAO.listEmployees(EmployeeDAO.java:22)
+	at org.hello.Main.main(Main.java:28)
+2024-12-19 08:48:41 INFO  [main] c.t.e.b.i.EzySimpleBeanContext$Builder - active profiles: null
+2024-12-19 08:48:41 ERROR [main] com.zaxxer.hikari.HikariConfig - HikariPool-1 - dataSource or dataSourceClassName or jdbcUrl is required.
