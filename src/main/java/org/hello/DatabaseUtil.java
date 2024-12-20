@@ -43,9 +43,9 @@ public class DatabaseUtil {
             configuration.setProperty("hibernate.hbm2ddl.auto", properties.getProperty("hibernate.hbm2ddl.auto"));
             configuration.setProperty("hibernate.show_sql", properties.getProperty("hibernate.show_sql"));
             configuration.setProperty("hibernate.format_sql", properties.getProperty("hibernate.format_sql"));
+            configuration.getProperties().put(Environment.DATASOURCE, dataSource);
 
             // Thêm các lớp entity
-            configuration.getProperties().put(Environment.DATASOURCE, dataSource);
             configuration.addAnnotatedClass(Employee.class);
             configuration.addAnnotatedClass(DatabaseAppenderEntity.class);
 
