@@ -3,6 +3,8 @@ package org.hello;
 import java.util.List;
 import java.util.Scanner;
 import com.tvd12.ezyfox.bean.EzyBeanContext;
+import org.hello.entity.Employee;
+import org.hello.repository.EmployeeDAO;
 
 public class Main {
     public static void main(String[] args) {
@@ -21,7 +23,6 @@ public class Main {
             System.out.println("5. Calculate Total Salary");
             System.out.println("6. Exit");
             System.out.print("Choose an option: ");
-
             int option = scanner.nextInt();
 
             switch (option) {

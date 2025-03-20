@@ -1,20 +1,20 @@
-package org.hello;
+package org.hello.util;
 
 import com.tvd12.ezyfox.bean.EzyBeanContext;
 import com.tvd12.ezyfox.bean.annotation.EzySingleton;
 import com.zaxxer.hikari.HikariConfig;
 import com.zaxxer.hikari.HikariDataSource;
+import org.hello.entity.DatabaseAppenderEntity;
+import org.hello.entity.Employee;
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 import org.hibernate.cfg.Configuration;
 import org.hibernate.cfg.Environment;
 import org.hibernate.service.ServiceRegistry;
 
-import java.io.IOException;
 import java.util.Properties;
 @EzySingleton
 public class DatabaseUtil {
-    private static DatabaseUtil instance;
     private SessionFactory sessionFactory;
     private HikariDataSource dataSource;
 
@@ -25,10 +25,10 @@ public class DatabaseUtil {
 
             // Cấu hình HikariCP
             HikariConfig hikariConfig = new HikariConfig();
-            hikariConfig.setJdbcUrl(properties.getProperty("db.url"));
-            hikariConfig.setUsername(properties.getProperty("db.username"));
-            hikariConfig.setPassword(properties.getProperty("db.password"));
-            hikariConfig.setDriverClassName(properties.getProperty("db.driver"));
+            hikariConfig.setJdbcUrl(properties.getProperty("datasource.jdbcUrl"));
+            hikariConfig.setUsername(properties.getProperty("datasource.username"));
+            hikariConfig.setPassword(properties.getProperty("datasource.password"));
+            hikariConfig.setDriverClassName(properties.getProperty("datasource.driver"));
             hikariConfig.setMaximumPoolSize(Integer.parseInt(properties.getProperty("hikari.maximumPoolSize", "10")));
             hikariConfig.setMinimumIdle(Integer.parseInt(properties.getProperty("hikari.minimumIdle", "2")));
             hikariConfig.setConnectionTimeout(Long.parseLong(properties.getProperty("hikari.connectionTimeout", "30000")));

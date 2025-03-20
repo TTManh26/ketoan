@@ -1,7 +1,9 @@
-package org.hello;
+package org.hello.repository;
 
 import com.tvd12.ezyfox.bean.annotation.EzySingleton;
 import lombok.AllArgsConstructor;
+import org.hello.util.DatabaseUtil;
+import org.hello.entity.DatabaseAppenderEntity;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 @AllArgsConstructor

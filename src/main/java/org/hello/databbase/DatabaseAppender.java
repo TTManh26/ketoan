@@ -1,7 +1,8 @@
-package org.hello;
+package org.hello.databbase;
 
 import ch.qos.logback.core.AppenderBase;
 import ch.qos.logback.classic.spi.ILoggingEvent;
+import org.hello.entity.DatabaseAppenderEntity;
 
 public class DatabaseAppender extends AppenderBase<ILoggingEvent> {
     private String url;

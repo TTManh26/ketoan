@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
 
-    <appender name="DB" class="org.hello.DatabaseAppender">
+    <appender name="DB" class="org.hello.databbase.DatabaseAppender">
         <param name="url" value="jdbc:mysql://localhost:3306/accounting_system"/>
         <param name="user" value="root"/>
         <param name="password" value="123456"/>

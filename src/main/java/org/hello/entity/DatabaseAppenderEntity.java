@@ -1,7 +1,12 @@
-package org.hello;
+package org.hello.entity;
+
+import lombok.Getter;
+import lombok.Setter;
 
 import javax.persistence.*;
 import java.sql.Timestamp;
+@Getter
+@Setter
 @Entity
 @Table(name = "log_table")
 public class DatabaseAppenderEntity {
@@ -10,16 +15,16 @@ public class DatabaseAppenderEntity {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
 
-    @Column(name = "timestamp", nullable = false)
+    @Column(name = "timestamp")
     private Timestamp timestamp;
 
-    @Column(name = "level", nullable = false)
+    @Column(name = "level")
     private String level;
 
-    @Column(name = "logger", nullable = false)
+    @Column(name = "logger")
     private String logger;
 
-    @Column(name = "message", nullable = false)
+    @Column(name = "message")
     private String message;
 
     public int getId() {
